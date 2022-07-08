@@ -4,7 +4,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'About', href:"../", current: true },
+  { name: 'About', href: "../", current: true },
   { name: 'Categories', href: '#', current: false },
   { name: 'Your Sales', href: '#', current: false },
   { name: 'Hot Sales', href: '#', current: false },
@@ -79,9 +79,9 @@ export default function Example() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         class="h-8 w-8 rounded-full"
-                          src="https://icon-library.com/images/user-image-icon/user-image-icon-16.jpg"
-                            alt
-                             />
+                        src="https://icon-library.com/images/user-image-icon/user-image-icon-16.jpg"
+                        alt
+                      />
                     </Menu.Button>
                   </div>
                   <Transition
