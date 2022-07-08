@@ -57,7 +57,7 @@ export default function body() {
                 How it works
               </a>
 
-              <a class="block w-full px-12 py-3 text-sm text-white font-medium bg-gradient-to-r from-pink-500 to-violet-500 rounded-3xl shadow sm:w-auto hover:text-slate-50  actnpive:text-red-500 focus:outline-none focus:ring hover:scale-110" href="/about">
+              <a class="block w-full px-12 py-3 text-sm text-white font-medium bg-gradient-to-r from-pink-500 to-violet-500 rounded-3xl shadow sm:w-auto hover:text-slate-50  actnpive:text-red-500 focus:outline-none focus:ring hover:scale-110" href="/displays">
                 Local Listings
               </a>
             </div>
