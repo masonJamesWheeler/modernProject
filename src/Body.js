@@ -24,7 +24,7 @@ export default function body() {
               <li><a class="block w-full px-8 py-3  my-2 text-lg text-white font-medium bg-gradient-to-r from-blue-500 to-violet-500 rounded-3xl shadow sm:w-auto hover:text-slate-50  actnpive:text-red-500 focus:outline-none focus:ring hover:scale-110" href="/about">
                 Clothes
               </a></li>
-              <li><a class="block w-full px-8 py-3  my-2 text-lg text-white font-medium bg-gradient-to-r from-green-500 to-teal-800 rounded-3xl shadow sm:w-auto hover:text-slate-50  actnpive:text-red-500 focus:outline-none focus:ring hover:scale-110" href="/about">
+              <li><a class="block w-full px-8 py-3  my-2 text-lg text-white font-medium bg-gradient-to-r from-green-500 to-teal-800 rounded-3xl shadow sm:w-auto hover:text-slate-50  actnpive:text-red-500 focus:outline-none focus:ring hover:scale-110" href="/displays">
                 Sports Equipment
               </a></li>
               <li><a class="block w-full px-8 py-3 my-2 text-lg text-white font-medium bg-gradient-to-r from-slate-400 to-blue-500 rounded-3xl shadow sm:w-auto hover:text-slate-50  actnpive:text-red-500 focus:outline-none focus:ring hover:scale-110" href="/about">

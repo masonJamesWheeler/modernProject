@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const products = [
   {
     id: 1,
@@ -38,16 +37,16 @@ const products = [
 ]
 export default function Display() {
   return (
-    <div className="">
+    <div className="flex flex-1">
       
-      <div className="max-w-3xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="max-w-3xl mx-auto py-8 px-4 sm:py-8 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Products</h2>
 
-        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
           {products.map((product) => (
             <a key={product.id} href={product.href} className="group">
-              <div class = "card bg-base-300">
-              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-t-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+              <div class = "card bg-base-300 hover:scale-105">
+              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-t-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 ">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
@@ -61,7 +60,8 @@ export default function Display() {
           ))}
         </div>
       </div>
-    </div>
+      </div>
+
   )
 }
 
