@@ -24,7 +24,7 @@ export default function MainCards() {
         <div class="card bg-base-300 shadow-xl text-center">
           <div class="card-body">
             <h2 class=" mx-auto card-title text-4xl font-extrabold sm:text-4xl py-3 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-blue-500">Start Selling Today</h2>
-            <p class="text-l font-semibold sm:text-xl">1.) Make an Account</p>
+            <p class="text-l font-semibold sm:text-xl"></p>
             <div class="card-actions justify-end items-center">
               <button class="btn btn-outline btn-primary hover:scale-105 mx-auto ">Create an Account</button>
             </div>

@@ -4,10 +4,11 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'About', href: "../", current: true },
-  { name: 'Categories', href: '#', current: false },
+  { name: 'About', href: "./about", current: true },
+  { name: 'Categories', href: '/Categories', current: false },
   { name: 'Your Sales', href: '#', current: false },
   { name: 'Hot Sales', href: '#', current: false },
+  { name: 'Your Profile', href: './yourProfile', current: false },
 ]
 
 function classNames(...classes) {
@@ -34,6 +35,7 @@ export default function Example() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
+                 <a href = "/">
                   <img
                     className="block lg:hidden h-8 w-auto"
                     src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png"
@@ -44,6 +46,7 @@ export default function Example() {
                     src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png"
                     alt="Play-Finder"
                   />
+                  </a>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
@@ -97,7 +100,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href=""
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Your Profile

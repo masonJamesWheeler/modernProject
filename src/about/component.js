@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function DragandDrop() {
   return (
     <main class="flex-col min-h-screen items-center justify-center  font-sans py-5 px-5">
@@ -12,8 +11,8 @@ export default function DragandDrop() {
 
         <p class="mt-2 text-gray-500 tracking-wide">Upload or drag & drop your file SVG, PNG, JPG </p>
 
-        <input id="dropzone-file" type="file" class="hidden" />
-
+        <input id="dropzone-file" type="file" class="hidden" onchange="loadFile(event)"/>
+        
       </label>
       <h1 class="text-4xl font-extrabold sm:text-2xl text-center py-2">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Example Listing </span>
@@ -30,12 +29,14 @@ export default function DragandDrop() {
           </div>
         </div>
       </div>
+      
     </main>
-
+ 
 
 
   )
 
 
 }
+
 

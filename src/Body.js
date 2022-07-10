@@ -53,11 +53,11 @@ export default function body() {
             </p>
 
             <div class="flex flex-wrap justify-center gap-8 mt-8">
-              <a href="/about" class="block w-full px-12 py-3 text-sm font-medium text-white bg-gradient-to-r from-pink-500 to-violet-500 rounded-3xl shadow sm:w-auto active:bg-red-500 hover:bg-slate-50 focus:outline-none focus:ring hover:scale-110">
+              <a href="/about" class="block w-full px-12 py-3 text-md font-medium text-white bg-gradient-to-r from-pink-500 to-violet-500 rounded-3xl shadow sm:w-auto active:bg-red-500 hover:bg-slate-50 focus:outline-none focus:ring hover:scale-110">
                 How it works
               </a>
 
-              <a class="block w-full px-12 py-3 text-sm text-white font-medium bg-gradient-to-r from-pink-500 to-violet-500 rounded-3xl shadow sm:w-auto hover:text-slate-50  actnpive:text-red-500 focus:outline-none focus:ring hover:scale-110" href="/displays">
+              <a class="block w-full px-12 py-3 text-md text-white font-medium bg-gradient-to-r from-pink-500 to-violet-500 rounded-3xl shadow sm:w-auto hover:text-slate-50  actnpive:text-red-500 focus:outline-none focus:ring hover:scale-110" href="/displays">
                 Local Listings
               </a>
             </div>

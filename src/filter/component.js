@@ -64,7 +64,10 @@ export default function Filters() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
 
   return (
+    
     <div className="max-h-full">
+      <html data-theme="cupcake"></html>
+
       <div>
         {/* Mobile filter dialog */}
         <Transition.Root show={mobileFiltersOpen} as={Fragment}>
@@ -122,7 +125,7 @@ export default function Filters() {
                         {({ open }) => (
                           <>
                             <h3 className="-mx-2 -my-3 flow-root">
-                              <Disclosure.Button className="px-2 py-3 w-full flex items-center justify-between hover:text-gray-500">
+                              <Disclosure.Button className="px-2 py-3 w-full flex items-center justify-between hover:text-primary">
                                 <span className="font-bold">{section.name}</span>
                                 <span className="ml-6 flex items-center">
                                   {open ? (
@@ -168,15 +171,15 @@ export default function Filters() {
 
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative z-10 flex items-baseline justify-between pt-6 pb-6 border-b border-base-300">
-          <h1 class="card-title text-3xl font-extrabold sm:text-4xl py-3 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-blue-600">Sports Equipment</h1>
+          <h1 class="card-title text-3xl font-extrabold sm:text-4xl py-3 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">Sports Equipment</h1>
 
             <div className="flex items-center">
               <Menu as="div" className="relative inline-block text-left">
                 <div>
-                  <Menu.Button className="group inline-flex justify-center text-sm font-bold hover:text-gray-900">
+                  <Menu.Button className="group inline-flex justify-center text-sm font-bold hover:text-primary">
                     Sort
                     <ChevronDownIcon
-                      className="flex-shrink-0 -mr-1 ml-1 h-5 w-5  group-hover:text-gray-500"
+                      className="flex-shrink-0 -mr-1 ml-1 h-5 w-5  group-hover:text-primary"
                       aria-hidden="true"
                     />
                   </Menu.Button>
@@ -199,7 +202,7 @@ export default function Filters() {
                             <a
                               href={option.href}
                               className={classNames(
-                                option.current ? 'font-bold ' : '',
+                                option.current ? 'font-bold hover:text-secondary hover:scale-105 ' : '',
                                 active ? 'bg-base-300' : '',
                                 'block px-4 py-2 text-sm'
                               )}
@@ -214,13 +217,13 @@ export default function Filters() {
                 </Transition>
               </Menu>
 
-              <button type="button" className="p-2 -m-2 ml-5 sm:ml-7  hover:text-gray-500">
+              <button type="button" className="p-2 -m-2 ml-5 sm:ml-7  hover:text-primary">
                 <span className="sr-only">View grid</span>
                 <ViewGridIcon className="w-5 h-5" aria-hidden="true" />
               </button>
               <button
                 type="button"
-                className="p-2 -m-2 ml-4 sm:ml-6  hover:text-gray-500 lg:hidden"
+                className="p-2 -m-2 ml-4 sm:ml-6  hover:text-primary lg:hidden"
                 onClick={() => setMobileFiltersOpen(true)}
               >
                 <span className="sr-only">Filters</span>
@@ -238,7 +241,7 @@ export default function Filters() {
               {/* Filters */}
               <form className="hidden lg:block">
                 <h3 className="sr-only">Categories</h3>
-                <ul role="list" className="text-sm space-y-4 pb-6 border-b border-base-300 sm:leading-relaxed sm:text-xl font-bold">
+                <ul role="list" className="text-sm space-y-4 pb-6 border-b border-base-300 sm:leading-relaxed sm:text-xl font-bold ">
                   {subCategories.map((category) => (
                     <li key={category.name}>
                       <a href={category.href}>{category.name}</a>
@@ -251,7 +254,7 @@ export default function Filters() {
                     {({ open }) => (
                       <>
                         <h3 className="-my-3 flow-root">
-                          <Disclosure.Button className="py-3 w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500">
+                          <Disclosure.Button className="py-3 w-full flex items-center justify-between text-sm text-gray-400 hover:text-secondary hover:scale-105">
                             <span className="font-bold ">{section.name}</span>
                             <span className="ml-6 flex items-center">
                               {open ? (
