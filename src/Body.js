@@ -48,7 +48,7 @@ export default function body() {
               </strong>
             </h1>
 
-            <p class="mt-4 sm:leading-relaxed sm:text-xl font-bold">
+            <p class=" underline mt-4 sm:leading-relaxed sm:text-xl font-bold decoration-black	underline-offset-1">
               Looking to get rid of extra stuff, moving out, or looking for cheap deals, we can help.
             </p>
 

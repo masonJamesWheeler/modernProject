@@ -4,8 +4,8 @@ export default function Categories () {
   
   return (
     <div class = "min-h-screen min-w-screen">
-    <h1 class = "text-center text-3xl font-extrabold sm:text-4xl my-5 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-orange-500">
-       <span>Find Listings by Categories</span>
+    <h1 class = "decoration-primary underline underline-offset-1 text-center text-3xl font-extrabold sm:text-4xl my-5 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-orange-500 	">
+       <span class >Find Listings by Categories</span>
        </h1>
     <div className="flex min-w-screen">
     <div class="grid gap-4 grid-cols-2 w-screen px-14">
